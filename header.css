@@ -1,0 +1,175 @@
+
+body h3{
+    color: #33cccc;
+}
+
+
+
+header{
+    display: flex;
+    color:white;
+    background-color:rgb(41, 38, 38);
+    
+}
+.header-mail-logo {
+    display: flex;
+    margin-left:20px;
+}
+.header-mail-logo p{
+    margin-top:3px;
+    padding-left:2px;
+}
+.header-phone{
+    display: flex;
+    margin-left:20px;
+}
+.header-phone .phone-number{
+    margin-top:0px;
+    padding-left:2px;
+}
+
+.mail{
+    display: flex;
+}
+
+
+.middle{
+    display:flex;
+}
+
+.ACM-W{
+    font-size: 14px;
+}
+.vvit-student-chapter{
+    font:bolder;
+    font-size: 30px;
+    font-weight: 100px;
+    padding:30px;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+
+.container{
+    background-color:rgb(40, 38, 38);
+    
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}   
+
+
+.container .top{
+    display: flex;
+
+}
+.top .left-side{
+    width: auto;
+    /* border:1px solid black; */
+}
+.top .right-side{
+    width: auto;
+    /* border: 1px solid black; */
+}
+
+.clg-details{
+    display: flex;
+    /* flex-direction: row ; */
+    /* border:1px solid black; */
+    width:500px;
+    /* justify-content: space-between; */
+}
+.clg-details .info{
+    /* border:1px solid black; */
+    margin-left:10px;
+}
+.info p{
+    margin-top: 4px;
+}
+.phone-number{
+    display: flex;
+    margin-top:-10px;   
+    margin-top:10px;
+
+}
+.phone-number .number{
+    margin-left: 10px;
+}
+.phone-number .number a{
+    text-decoration:none ;
+    color:white;
+}
+.number a:hover{
+    text-decoration: underline;
+    color:blue;
+}
+.mail{
+    display: flex;
+    margin-top:10px;
+}
+.mail .mail-info a{
+    text-decoration: none;
+    color:white;
+    padding-left:5px;
+    padding-top:10px;
+}
+.mail-info a:hover{
+    text-decoration: underline;
+    color:blue;
+}
+.main-page{
+    display: flex;
+}
+.main-page .link a{
+    text-decoration: none;
+    color:white;
+    padding-left:5px;
+    padding-top:10px;
+}
+.main-page a:hover{
+    text-decoration: underline;
+    color:blue;
+}
+.clg-logo{
+    
+    height: 100px;
+    margin: 10px;
+    padding:20px;
+
+}
+.left-side{
+    padding-left: 20px;
+}
+
+.bottom{
+    margin-top:20px;
+    text-align: center;
+    background-color:black; 
+    justify-content:end ;   
+}
+.bottom .copy-right a{
+    text-decoration: none;
+}
+
+.copy-right a:hover{
+    text-decoration: underline;
+    color:white;
+}
+
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left:750px;
+    margin-top:10px;
+}
+.social-icons .facebook, .instagram,
+.twitter,.youtube{
+    margin-left:20px;
+}
+.social-icons .facebook, .instagram,
+.twitter,.youtube a {
+    color:white;    
+}

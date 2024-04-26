@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+
+
+.background-image{
+    background-image: url("img1.jpg");  
+    background-repeat: no-repeat;
+    color: white;
+    overflow:visible ;
+}
+header{
+    width: 100%;
+    height: 50px;
+    /* background-color:rgb(66, 63, 63);
+     */
+     background-color: transparent;
+}
+
+nav {
+    background-color: transparent;
+    margin-top:0%;
+    color: white;
+}
+
+.top-container{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 100%;
+    color: white;
+
+}
+
+.top-container .nav-lists{
+    margin-left:20px;
+    margin-top: 30px;
+    background-color: transparent;
+    background-color: lightblue transparenttblue;
+}
+
+
+.top-container .nav-lists ul li{
+    display: inline-block;
+    margin-left: 50px;
+    position: relative;
+    
+}
+
+.dropdown-1{
+    display: block;
+    position: absolute;
+    
+    
+    width:100%;
+    left:0%;
+    /* border:1px solid black; */
+}
+.dropdown-1 ul{ 
+    padding-top: 10px;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    margin-left:-30px;
+    /* margin-left:-20px; */
+    /* border: 1px solid black; */
+} 
+.dropdown-1 ul li{
+    width: 130px;
+    height: 20px;
+    justify-content: space-between;
+    
+}
+.dropdown-1 ul{
+    display: none;
+}
+.nav-lists  ul a .dropdown-1{
+    display: block;
+    position: absolute;
+    left:0%;
+    top:100%;
+    background-color: transparent;
+}
+.nav-lists  ul li:hover .dropdown-1 ul{
+    display: block;
+}
+.fas{
+    float: right;
+    margin-left: 1px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    color:#33cccc;
+}
+
+.dropdown-2{
+    display: block;
+    position: absolute;
+    margin-left:-0px;
+    top: -30px;
+    left:120px;
+
+    height: 100%;
+    padding:20px;
+    
+    width:100%;
+    background-color: transparent;
+}
+.dropdown-2 {
+    display: block;
+    margin-left:-20px;
+}
+.dropdown-2 ul{
+    display: none;
+    border: #33cccc;
+
+}
+.dropdown-2{
+    display: none;
+}
+.dropdown-1 ul:hover li:hover .dropdown-2{
+    display: block;
+    position: absolute;
+}
+
+social-icons a:hover{
+    color: blue;
+}
